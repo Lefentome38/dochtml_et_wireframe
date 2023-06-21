@@ -1,23 +1,21 @@
-body{
+.body{
     display: flex;
 }
 
-h1, h2, h3{
-    
-}
+h1, h2, h3{}
 
 #scrollbar{
     text-align: center;
     width: 10%;
+    overflow: auto;
     border: solid red;
 }
 
 #scrollbar nav{
-    padding-top: 60px;
-    padding-bottom: 60px;
+    width: auto;
+    height:30%;
     border: solid yellow;
 }
-
 
 
 
@@ -74,4 +72,12 @@ main section{
     padding: 10%;
     width: 50%;
     border: dashed purple;
+}
+
+
+
+#test{
+    margin: 20px;
+    padding: 20px;
+    border: solid red;
 }
