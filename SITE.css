@@ -1,0 +1,77 @@
+body{
+    display: flex;
+}
+
+h1, h2, h3{
+    
+}
+
+#scrollbar{
+    text-align: center;
+    width: 10%;
+    border: solid red;
+}
+
+#scrollbar nav{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border: solid yellow;
+}
+
+
+
+
+
+
+
+
+#container{
+    width: 90%;
+    border: solid green;
+}
+
+main{
+    border: dashed blue;
+    margin: 5%;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,
+td, th{
+    text-align: start;
+    border: 1px solid #000000;
+}
+
+tbody td{
+    padding: 2%;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #ffffff;
+}
+
+
+
+main section{
+    display: flex;
+    width: 100%;
+    border: dashed yellow;
+}
+
+.exemple{
+    padding: 10%;
+    width: 50%;
+    border: dashed red;
+}
+
+.exemple2{
+    padding: 10%;
+    width: 50%;
+    border: dashed purple;
+}
