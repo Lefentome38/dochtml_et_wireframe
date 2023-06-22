@@ -8,23 +8,27 @@ h1, h2, h3, h4{}
     display: flex;
 }
 
+#scrollbar, ul{
+    text-align: center;
+    table-layout: fixed;
+    overflow: auto;
+    display: inline;
+}
+
+#scrollbar #liste1, #liste2, #liste3, #liste4{
+    width: auto;
+    height: 30%;
+}
+
 #scrollbar li, a{
     list-style-type: none;
     text-decoration: none;
     color: black;
 }
 
-#scrollbar{
-    text-align: center;
-    width: 10%;
-    overflow: auto;
-    border-bottom: solid rgb(158, 158, 158);
-}
+#scrollbar h3{}
 
-#scrollbar nav{
-    width: auto;
-    height:30%;
-}
+
 
 
 
