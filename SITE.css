@@ -1,20 +1,29 @@
-.body{
+body{}
+
+h1, h2, h3, h4{}
+
+
+
+.body-haut{
     display: flex;
 }
 
-h1, h2, h3{}
+#scrollbar li, a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
 
 #scrollbar{
     text-align: center;
     width: 10%;
     overflow: auto;
-    border: solid red;
+    border-bottom: solid rgb(158, 158, 158);
 }
 
 #scrollbar nav{
     width: auto;
     height:30%;
-    border: solid yellow;
 }
 
 
@@ -25,7 +34,6 @@ h1, h2, h3{}
 
 #container{
     width: 90%;
-    border: solid green;
 }
 
 main{
@@ -51,7 +59,7 @@ tbody td{
 thead,
 tfoot {
     background-color: #333;
-    color: #ffffff;
+    color: white;
 }
 
 
@@ -62,17 +70,18 @@ main section{
     border: dashed yellow;
 }
 
-.exemple{
+.boxleft{
     padding: 10%;
     width: 50%;
     border: dashed red;
 }
 
-.exemple2{
+.boxright{
     padding: 10%;
     width: 50%;
     border: dashed purple;
 }
+
 
 
 
