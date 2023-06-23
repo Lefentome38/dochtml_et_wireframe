@@ -1,4 +1,6 @@
-body{}
+body{
+    font-family:monospace;
+}
 
 h1, h2, h3, h4{}
 
@@ -82,7 +84,7 @@ thead {
 
 
 
-main section{
+.box{
     display: flex;
     width: 100%;
 }
